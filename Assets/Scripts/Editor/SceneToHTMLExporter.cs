@@ -31,11 +31,11 @@ public class SceneToHTMLExporter
             
             writer.WriteStartArray();
 
-            var allSceneObjects = Object.FindObjectsOfType<GameObject>();
+            var allSceneObjects = scene.GetRootGameObjects();
             for (var i = 0; i < allSceneObjects.Length; i++)
             {
                 var obj = allSceneObjects[i];
-                serialization.TrySerialize(obj, writer);
+                SerializeObject(obj, serialization, writer);
             }
             
             writer.WriteEndArray();
@@ -51,6 +51,16 @@ public class SceneToHTMLExporter
         finally
         {
             writer?.Close();
+        }
+    }
+
+    private static void SerializeObject(GameObject obj, SerializationChain serialization, JsonTextWriter writer)
+    {
+        serialization.TrySerialize(obj, writer);
+
+        for (int i = 0; i < obj.transform.childCount; ++i)
+        {
+            SerializeObject(obj.transform.GetChild(i).gameObject, serialization, writer);
         }
     }
 }

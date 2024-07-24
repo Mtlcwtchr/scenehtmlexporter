@@ -42,6 +42,8 @@ function createSceneInternal( scene, camera, json )
     objects.forEach(obj => {
         manageHierarchy(obj)
     })
+
+    objects.forEach(obj => console.log(obj))
 }
 
 function TRS(pos, rot, scale)

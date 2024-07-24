@@ -1,63 +1,9 @@
 {"values":[
     {
-      "type": "SceneObject",
-      "name": "Cylinder",
-      "parent": "Cube (3)",
-      "position": "-0.1, 0.87, 0.2",
-      "eulerAngles": "0, 333.24, 266.43",
-      "rot": "0.1686479, -0.158454, -0.7090077, 0.6661519",
-      "scale": "0.5, 1, 1"
-    },
-    {
-      "type": "SceneObject",
-      "name": "Cube (3)",
-      "parent": "Cube (2)",
-      "position": "-0.5, -1.2, -7",
-      "eulerAngles": "30.49, 324.2, 36.47",
-      "rot": "0.1448611, -0.3599462, 0.3640498, 0.8467124",
-      "scale": "1, 3, 1"
-    },
-    {
-      "type": "SceneObject",
-      "name": "Sphere (1)",
-      "parent": null,
-      "position": "10.4, -2.9, 13",
-      "eulerAngles": "0, 0, 0",
-      "rot": "0, 0, 0, 1",
-      "scale": "5, 5, 5"
-    },
-    {
-      "type": "SceneObject",
-      "name": "Sphere",
-      "parent": "Sphere (1)",
-      "position": "0, 0.9, 0",
-      "eulerAngles": "0, 0, 0",
-      "rot": "0, 0, 0, 1",
-      "scale": "0.5, 0.5, 0.5"
-    },
-    {
-      "type": "SceneObject",
-      "name": "Cube (4)",
-      "parent": null,
-      "position": "0, 0, 0",
-      "eulerAngles": "337.58, 340.88, -6.926886E-07",
-      "rot": "-0.1917057, -0.1629118, -0.03228696, 0.9672984",
-      "scale": "5, 5, 5"
-    },
-    {
-      "type": "SceneObject",
-      "name": "Cube (2)",
-      "parent": null,
-      "position": "7.3, 10.84, -5.37",
-      "eulerAngles": "0, 0, 329.88",
-      "rot": "0, 0, -0.2598304, 0.9656543",
-      "scale": "1, 1, 1"
-    },
-    {
       "type": "Camera",
-      "position": "15.9945, 19.86823, 40.39221",
-      "eulerAngles": "29.428, 207, 0",
-      "rot": "-0.05929378, 0.9404818, -0.2469764, -0.2257897"
+      "position": "-11.46202, -6.983185, -6.575027",
+      "eulerAngles": "320.0888, 32.7612, 2.78269E-05",
+      "rot": "-0.3274385, 0.2650837, 0.09625017, 0.9018041"
     },
     {
       "type": "SceneObject",
@@ -76,4 +22,49 @@
       "eulerAngles": "0, 0, 0",
       "rot": "0, 0, 0, 1",
       "scale": "1, 1, 1"
+    },
+    {
+      "type": "SceneObject",
+      "name": "Cube (2)",
+      "parent": null,
+      "position": "7.3, 10.84, -5.37",
+      "eulerAngles": "0, 0, 329.88",
+      "rot": "0, 0, -0.2598304, 0.9656543",
+      "scale": "1, 1, 1"
+    },
+    {
+      "type": "SceneObject",
+      "name": "Cube (4)",
+      "parent": null,
+      "position": "0, 0, 0",
+      "eulerAngles": "337.58, 340.88, -6.926886E-07",
+      "rot": "-0.1917057, -0.1629118, -0.03228696, 0.9672984",
+      "scale": "5, 5, 5"
+    },
+    {
+      "type": "SceneObject",
+      "name": "Cube (5)",
+      "parent": null,
+      "position": "10.45, 4.53, 1.64",
+      "eulerAngles": "337.58, 293.99, 1.847169E-06",
+      "rot": "-0.163033, -0.5343198, -0.1058951, 0.8226231",
+      "scale": "5, 1, 5"
+    },
+    {
+      "type": "SceneObject",
+      "name": "Cube (6)",
+      "parent": "Cube (5)",
+      "position": "0, 2.04, 0",
+      "eulerAngles": "0, 0, 0",
+      "rot": "0, 0, 0, 1",
+      "scale": "0.5, 5, 0.5"
+    },
+    {
+      "type": "SceneObject",
+      "name": "Cube (7)",
+      "parent": "Cube (6)",
+      "position": "0, 0.66, 0.07",
+      "eulerAngles": "0, 22.99999, 22.40999",
+      "rot": "0.03874115, 0.1955676, 0.1904189, 0.9612457",
+      "scale": "5, 0.5, 5"
     }]}
